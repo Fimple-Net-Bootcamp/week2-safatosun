@@ -8,7 +8,7 @@ using spaceWeather.Services.Contracts;
 
 namespace spaceWeather.Controllers
 {
-    [Route("api/v1/CelestialBodies")]
+    [Route("api/v1/celestialbodies")]
     [ApiController]
     //Actions on the CelestialBody entity can be used by making a request to this class.
     public class CelestialBodyController : ControllerBase
